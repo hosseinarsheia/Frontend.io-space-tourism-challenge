@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet" />
+    <link href="/src//dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="box-border w-screen min-h-screen overflow-hidden text-base font-normal font-Barlow">
+    <header>
+      <img
+        src="../../assets/destination/background-destination-mobile.jpg"
+        alt="earth from space"
+        class="absolute inset-0 block object-fill w-screen h-screen md:hidden -z-10" />
+
+      <img
+        src="../../assets/destination/background-destination-tablet.jpg"
+        alt="earth from space"
+        class="absolute inset-0 hidden object-fill w-screen h-screen md:block -z-10" />
+
+      <img
+        src="../../assets/destination/background-destination-desktop.jpg"
+        alt="earth from space"
+        class="absolute inset-0 hidden object-fill w-screen h-screen md:block -z-10" />
+
+      <nav class="flex items-center justify-between desktop:py-6 desktop:ml-14">
+        <img src="./../../assets/shared/logo.svg" class="w-10 h-10" alt="" />
+        <img src="./../../assets/shared/icon-hamburger.svg" class="w-6 h-5 md:hidden" alt="" />
+        <div
+          class="hidden py-1 tracking-widest md:flex placeholder-red-50 space-x-14 desktop:bg-white desktop:bg-opacity-10 desktop:backdrop-blur-lg desktop:px-32">
+          <a
+            href="../HomeScreen/Home.html"
+            class="text-sm text-white border-b-2 border-white desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">00</span> HOME
+          </a>
+
+          <a
+            href="../DestinationScreen/Moon.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline"> 01</span> DESTENATION
+          </a>
+
+          <a
+            href="../CrewScreen/Douglas.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">02</span> CREW
+          </a>
+
+          <a
+            href="../Technology/LaunchVehicle.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">03</span> TECHNOLOGY
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="px-6 desktop:w-screen md:px-24 desktop:mt-20">
+      <div
+        class="grid desktop:grid-cols-2 desktop:items-center desktop:justify-items-center desktop:gap-x-40">
+        <div>
+          <p
+            class="mb-5 text-xl text-white font-Barlow-Condensed md:absolute desktop:relative desktop:text-left left-6 desktop:text-3xl desktop:tracking-widest desktop:mb-6">
+            <span class="mr-5 text-light-blue">01</span> PICK YOUR DESTNATION
+          </p>
+          <img
+            class="w-32 h-32 mx-auto mb-6 md:mt-10 md:w-80 md:h-auto desktop:w-[445px] desktop:h-[445px]"
+            src="./../../assets/destination/image-titan.png"
+            alt="moon image" />
+        </div>
+
+        <div class="grid grid-cols-1 justify-items-center desktop:justify-items-start">
+          <div class="flex mb-5 space-x-6 desktop:mb-14 flex-rower">
+            <a
+              href="./Moon.html"
+              class="pb-1 text-sm border-b-2 border-transparent md:text-base text-light-blue hover:border-b-2 hover:border-white hover:text-white"
+              >MOON</a
+            >
+            <a
+              href="./Mars.html"
+              class="pb-1 text-sm border-b-2 border-transparent md:text-base text-light-blue hover:border-b-2 hover:border-white hover:text-white"
+              >MARS</a
+            >
+            <a
+              href="./Europa.html"
+              class="pb-1 text-sm border-b-2 border-transparent md:text-base text-light-blue hover:border-b-2 hover:border-white hover:text-white"
+              >EUROPA</a
+            >
+            <a
+              href="./Titan.html"
+              class="pb-1 text-sm border-b-2 border-white md:text-base text-light-blue hover:text-white"
+              >TITAN</a
+            >
+          </div>
+
+          <h2 class="mb-5 text-6xl text-white md:text-7xl font-Bellefair">TITAN</h2>
+          <p
+            class="text-sm leading-4 text-center md:text-base text-light-blue desktop:text-left desktop:text-lg">
+            The only moon known to have a dense atmosphere other than Earth, Titan is a home away
+            from home (just a few hundred degrees colder!). As a bonus, you get striking views of
+            the Rings of Saturn.
+          </p>
+
+          <div class="w-full my-6 border-b-2 border-dark-blue"></div>
+
+          <div
+            class="grid w-full grid-cols-1 text-white md:justify-between md:grid-cols-2 desktop:justify-items-start">
+            <div class="text-center">
+              <p class="mb-3 text-sm font-Barlow-Condensed text-light-blue">AVG. DISTANCE</p>
+              <p class="text-3xl font-Bellefair">1.6 bil. km</p>
+            </div>
+
+            <div class="text-center">
+              <p class="mb-3 text-sm font-Barlow-Condensed text-light-blue">EST. TRAVEL TIME</p>
+              <p class="text-3xl font-Bellefair">7 years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

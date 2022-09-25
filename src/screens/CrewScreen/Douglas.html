@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet" />
+    <link href="/src//dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="box-border w-screen min-h-screen overflow-hidden text-base font-normal font-Barlow">
+    <header>
+      <img
+        src="../../assets/crew/background-crew-mobile.jpg"
+        alt="earth from space"
+        class="absolute inset-0 block object-fill w-screen h-screen md:hidden -z-10" />
+
+      <img
+        src="../../assets/crew/background-crew-tablet.jpg"
+        alt="earth from space"
+        class="absolute inset-0 hidden object-fill w-screen h-screen md:block -z-10" />
+
+      <img
+        src="../../assets/crew/background-crew-desktop.jpg"
+        alt="earth from space"
+        class="absolute inset-0 hidden object-fill w-screen h-screen md:block -z-10" />
+
+      <nav class="flex items-center justify-between desktop:py-6 desktop:ml-14">
+        <img src="./../../assets/shared/logo.svg" class="w-10 h-10" alt="" />
+        <img src="./../../assets/shared/icon-hamburger.svg" class="w-6 h-5 md:hidden" alt="" />
+        <div
+          class="hidden py-1 tracking-widest md:flex placeholder-red-50 space-x-14 desktop:bg-white desktop:bg-opacity-10 desktop:backdrop-blur-lg desktop:px-32">
+          <a
+            href="../HomeScreen/Home.html"
+            class="text-sm text-white border-b-2 border-white desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">00</span> HOME
+          </a>
+
+          <a
+            href="../DestinationScreen/Moon.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline"> 01</span> DESTENATION
+          </a>
+
+          <a
+            href="../CrewScreen/Douglas.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">02</span> CREW
+          </a>
+
+          <a
+            href="../Technology/LaunchVehicle.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">03</span> TECHNOLOGY
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <p class="mb-6 text-center text-white md:text-left md:ml-10 desktop:pl-40">
+      <span class="mr-4 tracking-widest md:text-xl text-light-blue font-Barlow-Condensed">02</span>
+      MEET YOUR CREW
+    </p>
+
+    <section
+      class="flex flex-col items-center px-6 space-y-3 md:flex-col-reverse desktop:flex-row-reverse">
+      <img
+        class="h-56 mb-4 mx-auto w-44 md:w-[460px] md:h-[570px] md:translate-y-10 desktop:translate-y-0 self-end desktop:w-[570px] desktop:h-[715px]"
+        src="../../assets/crew/image-douglas-hurley.png"
+        alt="douglas-hurley astrount" />
+
+      <div
+        class="flex flex-col items-center w-full md:flex-col-reverse md:px-40 desktop:items-start desktop:pr-60">
+        <div class="flex flex-row justify-center space-x-3 desktop:mt-6">
+          <a href="./Douglas.html" class="w-2 h-2 bg-white rounded-full hover:bg-white"></a>
+          <a href="./Mark.html" class="w-2 h-2 rounded-full bg-dark-blue hover:bg-white"></a>
+          <a href="./Victor.html" class="w-2 h-2 rounded-full bg-dark-blue hover:bg-white"></a>
+          <a href="./Anousheh.html" class="w-2 h-2 rounded-full bg-dark-blue hover:bg-white"></a>
+        </div>
+
+        <div class="flex flex-col items-center text-center desktop:text-left desktop:items-start">
+          <div>
+            <p class="mt-6 mb-4 text-white/70 md:text-2xl desktop:text-3xl">COMMANDER</p>
+            <p class="text-2xl text-white font-Bellefair md:text-4xl desktop:text-5xl">
+              DOUGLAS HURLEY
+            </p>
+          </div>
+
+          <div>
+            <p
+              class="mt-6 leading-6 text-center text-light-blue md:mb-6 desktop:text-left desktop:text-lg">
+              Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former
+              NASA astronaut. He launched into space for the third time as commander of Crew Dragon
+              Demo-2.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

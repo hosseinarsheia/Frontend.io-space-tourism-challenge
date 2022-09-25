@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Tourism</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet" />
+    <link href="/src//dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="box-border w-screen h-screen overflow-hidden text-base font-normal font-Barlow">
+    <header class="relative">
+      <img
+        src="../../assets/technology/background-technology-mobile.jpg"
+        alt="earth from space"
+        class="absolute inset-0 block object-fill w-screen h-screen md:hidden -z-10" />
+
+      <img
+        src="../../assets/technology/background-technology-tablet.jpg"
+        alt="earth from space"
+        class="absolute inset-0 hidden object-fill w-screen h-screen md:flex -z-10" />
+
+      <img
+        src="../../assets/technology/background-technology-desktop.jpg"
+        alt="earth from space"
+        class="absolute inset-0 hidden object-fill w-screen h-screen desktop:block -z-10" />
+
+      <nav class="flex items-center justify-between p-6 desktop:p-0 desktop:py-6 desktop:pl-6">
+        <img src="./../../assets/shared/logo.svg" class="w-10 h-10" alt="" />
+        <img src="./../../assets/shared/icon-hamburger.svg" class="w-6 h-5 md:hidden" alt="" />
+
+        <div
+          class="hidden py-1 tracking-widest md:flex placeholder-red-50 space-x-14 desktop:bg-white desktop:bg-opacity-10 desktop:backdrop-blur-lg desktop:px-32">
+          <a
+            href="../HomeScreen/Home.html"
+            class="text-sm text-white border-b-2 border-white desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">00</span> HOME
+          </a>
+
+          <a
+            href="../DestinationScreen/Moon.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline"> 01</span> DESTENATION
+          </a>
+
+          <a
+            href="../CrewScreen/Douglas.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">02</span> CREW
+          </a>
+
+          <a
+            href="/"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">03</span> TECHNOLOGY
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <p
+        class="mb-6 text-center text-white uppercase font-Barlow-Condensed md:text-left md:px-6 md:mb-16 desktop:text-4xl desktop:ml-40">
+        <span class="mr-4 text-dark-blue">03</span>space launch 101
+      </p>
+      <div class="flex flex-col desktop:flex-row-reverse">
+        <img
+          class="desktop:hidden md:h-[310px]"
+          src="../../assets/technology/image-spaceport-landscape.jpg"
+          alt="launch vehicle" />
+        <img
+          class="hidden desktop:flex desktop:w-[500px] desktop:h-[520px]"
+          src="../../assets/technology/image-spaceport-portrait.jpg"
+          alt="launch vehicle " />
+
+        <div class="flex flex-col desktop:flex-row desktop:items-center desktop:pl-32">
+          <div
+            class="flex flex-row justify-center my-6 space-x-3 desktop:space-x-0 desktop:flex-col desktop:space-y-6 desktop: md:my-12">
+            <div
+              class="relative w-14 h-14 border-[1px] desktop:w-20 desktop:h-20 border-white rounded-full">
+              <a
+                href="./LaunchVehicle.html"
+                class="absolute inset-0 text-center text-white font-Bellefair top-4 desktop:top-6 desktop:text-4xl"
+                >1</a
+              >
+            </div>
+
+            <div class="relative bg-white rounded-full w-14 h-14 desktop:w-20 desktop:h-20">
+              <a
+                href="./Spaceport.html"
+                class="absolute inset-0 text-center text-black font-Bellefair top-4 desktop:top-6 desktop:text-4xl"
+                >2</a
+              >
+            </div>
+            <div
+              class="relative w-14 h-14 border-[1px] desktop:w-20 desktop:h-20 border-white rounded-full">
+              <a
+                href="./SpaceCapsule.html"
+                class="absolute inset-0 text-center text-white font-Bellefair top-4 desktop:top-6 desktop:text-4xl"
+                >3</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="px-6 space-y-4 text-center md:px-40 desktop:text-left desktop:px-20 desktop:pr-32">
+            <p
+              class="text-sm tracking-widest uppercase text-light-blue font-Barlow-Condensed md:text-base">
+              the terminology ...
+            </p>
+            <p class="text-2xl text-white uppercase font-Bellefair md:text-4xl desktop:text-6xl">
+              SPACE LAUNCH 101
+            </p>
+            <p
+              class="leading-6 text-center text-light-blue md:leading-7 desktop:text-left desktop:text-lg desktop:leading-8">
+              A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by
+              analogy to the seaport for ships or airport for aircraft. Based in the famous Cape
+              Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation
+              for launch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

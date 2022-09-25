@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Tourism</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet" />
+    <link href="/src//dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="box-border w-screen h-screen overflow-hidden text-base font-normal font-Barlow">
+    <header class="relative">
+      <img
+        src="../../assets/home/background-home-mobile.jpg"
+        alt="earth from space"
+        class="absolute inset-0 block object-fill w-screen h-screen md:hidden -z-10" />
+
+      <img
+        src="../../assets/home/background-home-tablet.jpg"
+        alt="earth from space"
+        class="absolute inset-0 hidden object-fill w-screen h-screen md:flex -z-10" />
+
+      <img
+        src="../../assets/home/background-home-desktop.jpg"
+        alt="earth from space"
+        class="absolute inset-0 hidden object-fill w-screen h-screen desktop:block -z-10" />
+
+      <nav class="flex items-center justify-between p-6 desktop:p-0 desktop:py-6 desktop:pl-6">
+        <img src="./../../assets/shared/logo.svg" class="w-10 h-10" alt="" />
+        <img src="./../../assets/shared/icon-hamburger.svg" class="w-6 h-5 md:hidden" alt="" />
+
+        <div
+          class="hidden py-1 tracking-widest md:flex placeholder-red-50 space-x-14 desktop:bg-white desktop:bg-opacity-10 desktop:backdrop-blur-lg desktop:px-32">
+          <a
+            href="./Home.html"
+            class="text-sm text-white border-b-2 border-white desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">00</span> HOME
+          </a>
+
+          <a
+            href="../DestinationScreen/Moon.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline"> 01</span> DESTENATION
+          </a>
+
+          <a
+            href="../CrewScreen/Douglas.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">02</span> CREW
+          </a>
+
+          <a
+            href="../Technology/LaunchVehicle.html"
+            class="text-sm text-white border-b-2 desktop:text-base font-Barlow-Condensed py-7 border-white/0 hover:border-white">
+            <span class="hidden mr-1 font-bold desktop:inline">03</span> TECHNOLOGY
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="mt-12 md:mt-28 desktop:grid desktop:grid-cols-2 desktop:mt-64">
+      <div
+        class="mx-6 mb-20 space-y-4 text-center md:mx-40 md:mb-40 desktop:mb-0 desktop:flex desktop:flex-col desktop:text-left">
+        <p
+          class="font-Barlow-Condensed text-light-blue tracking-[2.7px] md:text-xl desktop:text-2xl desktop:tracking-widest">
+          SO,YOU WANT TO TRAVEL TO
+        </p>
+        <p class="text-white font-Bellefair text-7xl md:text-150">SPACE</p>
+        <p class="font-Barlow text-light-blue desktop:text-lg">
+          Let’s face it; if you want to go to space, you might as well genuinely go to outer space
+          and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a
+          truly out of this world experience!
+        </p>
+      </div>
+
+      <div class="flex items-center justify-center mx-auto">
+        <div
+          class="flex items-center justify-center text-xl bg-white rounded-full md:w-64 w-36 h-36 font-Bellefair md:h-64">
+          EXPLORE
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
